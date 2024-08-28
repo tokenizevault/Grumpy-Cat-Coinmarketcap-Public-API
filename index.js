@@ -27,8 +27,8 @@ def get_info():
 
     # Extract the desired information from the response
     data = info['data']['GCAT']
-    name = data['name']  # Correct key for name
-    symbol = data['symbol']  # Correct key for symbol
+    name = data['name']['Grumpy Cat']  # Correct key for name
+    symbol = data['symbol']['GCAT']  # Correct key for symbol
     rank = data['cmc_rank']
     total_supply = data['total_supply']
     circulating_supply = data['circulating_supply']
