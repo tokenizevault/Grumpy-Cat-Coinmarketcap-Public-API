@@ -16,7 +16,7 @@ def get_info():
     parameters = { 'symbol': 'GCAT', 'convert': 'USD' }
     headers = {
         'Accepts': 'application/json',
-        'X-CMC_PRO_API_KEY': api_key
+        'X-CMC_PRO_API_KEY': d27fdc6b-ec93-4ca1-82c4-2213ac38907c
     }
 
     # Send the request and retrieve the response
