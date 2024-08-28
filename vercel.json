@@ -9,11 +9,11 @@
   "routes": [
     {
       "src": "/api/v1/token/(.*)",
-      "dest": "/index.js"
+      "dest": "/coinmarket.ini"
     },
     {
       "src": "/api/v1",
-      "dest": "/index.js"
+      "dest": "/config.ini"
     }
   ]
 }
